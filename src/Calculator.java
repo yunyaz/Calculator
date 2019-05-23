@@ -18,22 +18,4 @@ public class Calculator {
 			return (num1 / num2);
 		return 0.0;
 	}
-	
-	
-
-	public static void main(String[] args) {
-		
-		Scanner keyboard = new Scanner (System.in);
-		
-		System.out.println("Input 2 numbers to add");
-		
-		double input1 = keyboard.nextDouble();
-		
-		double input2 = keyboard.nextDouble();
-		
-		double sum = Calculator.add(input1, input2);
-		
-		System.out.println("The sum is " + sum);
-	}
-
 }
